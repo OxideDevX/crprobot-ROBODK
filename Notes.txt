@@ -1,0 +1,25 @@
+Place in this folder any POST PROCESSOR script to generate programs for your robots with RoboDK
+
+More information about RoboDK Post Processors and Offline Programming here:
+    https://robodk.com/doc/en/Post-Processors.html
+    https://robodk.com/doc/en/PythonAPI/postprocessor.html
+
+To edit/test a POST PROCESSOR file:
+Select "Program"->"Add/Edit Post Processor", then select your post or create a new one.
+You can edit this file using any text editor or Python editor. Using a Python editor allows to quickly evaluate a sample program at the end of this file.
+Python should be automatically installed with RoboDK
+
+You can also edit the POST PROCESSOR manually:
+    1- Open the *.py file with Python IDLE (right click -> Edit with IDLE)
+    2- Make the necessary changes
+    3- Run the file to open Python Shell: Run -> Run module (F5 by default)
+    4- The "test_post()" function is called automatically
+Alternatively, you can edit this file using a text editor and run it with Python
+
+To use a POST PROCESSOR file you must place the *.py file in "C:/RoboDK/Posts/"
+To select one POST PROCESSOR for your robot in RoboDK you must follow these steps:
+    1- Open the robot panel (double click a robot)
+    2- Select "Parameters"
+    3- Select your post as the file name in the "Robot brand" box
+
+To delete an existing POST PROCESSOR scritp, simply delete the corresponding file (.py file)
