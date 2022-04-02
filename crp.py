@@ -2,7 +2,7 @@
 # Copyright 2015-2022 - RoboDK Inc. - https://robodk.com/
 #
 # This file loads the compiled version of the RoboDK post processor for:
-#   GSK robot controllers
+#   CRP robot controllers
 # 
 # More information about RoboDK Post Processors and Offline Programming:
 #     https://robodk.com/help#PostProcessor
