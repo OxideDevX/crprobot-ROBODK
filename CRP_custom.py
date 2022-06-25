@@ -40,6 +40,5 @@ class RobotPost(BasePost):
     pass
 
 if __name__== "__main__":
-    exec("from v" + version_str + ".KUKA_custom import test_post")
+    exec("from v" + version_str + ".CRP_custom import test_post")
     test_post()
-
