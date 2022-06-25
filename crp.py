@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2015-2022 - RoboDK Inc. - https://robodk.com/
+# Copyright 2015-2022 - RoboDK Inc. - https://robodk.com/ and OxideDevX
 #
 # This file loads the compiled version of the RoboDK post processor for:
 #   CRP robot controllers
@@ -31,7 +31,7 @@ if not os.path.isdir(path_library):
     raise Exception(msg)
 
 # Load the post processor
-exec("from v" + version_str + ".GSK import RobotPost as BasePost")
+exec("from v" + version_str + ".CRP import RobotPost as BasePost")
 
 class RobotPost(BasePost):
     """Robot post object"""
